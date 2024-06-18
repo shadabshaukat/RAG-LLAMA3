@@ -41,3 +41,8 @@ pip install -r requirements.txt
 ### 6. Run Python Script
 
 python3 main.py
+
+### 7. Exit Python Virtual Environment
+
+deactivate
+
