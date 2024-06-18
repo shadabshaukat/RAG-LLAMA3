@@ -21,8 +21,11 @@ ollama pull mxbai-embed-large
 
 ### 2. Install Python 3.12 
 
+```
+brew install Python3
+```
 
-### 3. Install Qdrant Vector database in Docker
+### 3. Run Qdrant Vector database as a Local Docker Container
 
 ```
 colima start
