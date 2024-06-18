@@ -3,7 +3,7 @@ Retrieval Augemented Generation (RAG) with Ollama Llama3 model and Qdrant Vector
 
 
 ## Deploy
-### 1. Install Ollama and run llama3:8b model
+### 1. Install Ollama and run Llama3:8b model
 
 Ref : https://medium.com/@shadabshaukat/run-llama3-on-your-m1-pro-macbook-08388b4b98e1
 
