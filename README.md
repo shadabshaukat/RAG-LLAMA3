@@ -29,7 +29,7 @@ docker run -p 6333:6333 -p 6334:6334 \
     
 ### 4. Clone Repo
 
-git clone https://github.com/shadabshaukat/RAG-LLAMA3.git 
+git clone https://github.com/shadabshaukat/RAG-LLAMA3.git && cd RAG-LLAMA3/
 
 In this sample, PDFs will be stored in directory '/Users/shadab/Downloads/data' 
 
