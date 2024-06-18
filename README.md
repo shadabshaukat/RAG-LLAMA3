@@ -6,11 +6,11 @@ Retrieval Augemented Generation (RAG) with Ollama Llama3 model and Qdrant Vector
 
 Ref : https://medium.com/@shadabshaukat/run-llama3-on-your-m1-pro-macbook-08388b4b98e1
 
-$ ollama run llama3:8b
+ollama run llama3:8b
 
 Pull the 'mxbai-embed-large' embedding model from ollama
 
-$ ollama pull mxbai-embed-large
+ollama pull mxbai-embed-large
 
 
 ### 2. Install Python 3.12 
@@ -18,17 +18,17 @@ $ ollama pull mxbai-embed-large
 
 ### 3. Install qdrant Vector database
 
-$ colima start
+colima start
 
-$ docker pull qdrant/qdrant
+docker pull qdrant/qdrant
 
-$ docker run -p 6333:6333 -p 6334:6334 \
+docker run -p 6333:6333 -p 6334:6334 \
     -v $(pwd)/qdrant_storage:/qdrant/storage:z \
     qdrant/qdrant
     
 ### 4. Clone Repo
 
-$ git clone
+git clone https://github.com/shadabshaukat/RAG-LLAMA3.git 
 
 ### 5. Deploy a Python Virtual environment
 
