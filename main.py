@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # load the local data directory and chunk the data for further processing
-docs = SimpleDirectoryReader(input_dir="/Users/shadab/Downloads/data", required_exts=[".pdf"]).load_data(show_progress=True)
+docs = SimpleDirectoryReader(input_dir="data", required_exts=[".pdf"]).load_data(show_progress=True)
 text_parser = SentenceSplitter(chunk_size=512, chunk_overlap=100)
 
 text_chunks = []
