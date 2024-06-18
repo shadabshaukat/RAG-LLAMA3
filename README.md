@@ -1,6 +1,7 @@
 # RAG-LLAMA3
 Retrieval Augemented Generation (RAG) with Ollama Llama3 model and Qdrant Vector Database
 
+
 ## Deploy
 ### 1. Install Ollama and run llama3:8b model
 
@@ -16,7 +17,7 @@ ollama pull mxbai-embed-large
 ### 2. Install Python 3.12 
 
 
-### 3. Install qdrant Vector database
+### 3. Install Qdrant Vector database in Docker
 
 colima start
 
@@ -30,6 +31,8 @@ docker run -p 6333:6333 -p 6334:6334 \
 
 git clone https://github.com/shadabshaukat/RAG-LLAMA3.git 
 
+In this sample, PDFs will be stored in directory '/Users/shadab/Downloads/data' 
+
 ### 5. Deploy a Python Virtual environment
 
 python3 -m venv .venv
@@ -38,7 +41,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-### 6. Run Python Script
+### 6. Run RAG as Python Script
 
 python3 main.py
 
