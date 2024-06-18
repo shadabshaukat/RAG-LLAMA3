@@ -120,7 +120,6 @@ reportcount every 10 minutes, rate
 
 -- Table map list for apply
 MAP SRC_OCIGGLL.*, TARGET SRCMIRROR_OCIGGLL.*;
-```
 
 This parameter file captures DDL operations for the listed schema tables in the `SRC_OCIGGLL` schema and maps them to the `SRCMIRROR_OCIGGLL` target. It also includes options for reporting, such as step-by-step history of DDL operations captured, daily capture stats per table, weekly report file rollover, and total operations captured with rate every 10 minutes.
 ```
